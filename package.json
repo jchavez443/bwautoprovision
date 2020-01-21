@@ -1,0 +1,30 @@
+{
+  "name": "bwautoprovision",
+  "version": "1.0.0",
+  "description": "Auto provisions application, site, sippeer, tn",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "provision": "node index.js",
+    "clean": "node cleanup.js",
+    "build": "tsc --sourcemap"
+  },
+  "keywords": [
+    "Bandwidth",
+    "Serverless",
+    "Starter"
+  ],
+  "author": "Bandwidth DevX JLC",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^13.1.8",
+    "@types/xml2js": "^0.4.5",
+    "axios": "^0.19.1",
+    "fs-extra": "^8.1.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "application": {
+        "AppName": "JohnAppAutoProvision",
+        "ServiceType": "Messaging-V2",
+        "MsgCallbackUrl": "https://yourSecureSite.com/callbacks"
+
+    },
+    "site": {
+        "Description": "Auto generated sub-account/site",
+        "Address": {
+            "HouseNumber": "320",
+            "StreetName": "Diversey PKWY",
+            "City": "West Chicago",
+            "StateCode": "IL",
+            "Zip": "60185",
+            "AddressType": "Service"
+        }
+    },
+    "sipPeer": {
+        "IsDefaultPeer" : true
+    }
+}

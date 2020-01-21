@@ -2,10 +2,11 @@
   "name": "bwautoprovision",
   "version": "1.0.0",
   "description": "Auto provisions application, site, sippeer, tn",
-  "main": "index.js",
+  "main": "provision.js",
   "scripts": {
     "test": "test",
-    "provision": "node index.js",
+    "provision": "node provision.js",
+    "ordertn": "node ordertn.js",
     "clean": "node cleanup.js",
     "build": "tsc --sourcemap"
   },

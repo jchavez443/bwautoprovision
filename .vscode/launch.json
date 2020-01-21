@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Provision",
-            "program": "${workspaceFolder}/index.js",
+            "program": "${workspaceFolder}/provision.js",
             "args": [""], 
             "preLaunchTask": "npm: build",
             "outFiles": ["${workspaceFolder}/out/**/*.js"]
@@ -18,6 +18,16 @@
             "request": "launch",
             "name": "CleanUp",
             "program": "${workspaceFolder}/cleanup.js",
+            "args": [""], 
+            "preLaunchTask": "npm: build",
+            "outFiles": ["${workspaceFolder}/out/**/*.js"]
+          }
+          ,
+          {
+            "type": "node",
+            "request": "launch",
+            "name": "Order Tn",
+            "program": "${workspaceFolder}/ordertn.js",
             "args": [""], 
             "preLaunchTask": "npm: build",
             "outFiles": ["${workspaceFolder}/out/**/*.js"]
